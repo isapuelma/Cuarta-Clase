@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #80bc9a;
+  color: #ffffff
+  font-family: Helvetica, Arial, sans;
+}
+  
+a{
+  color: #ffffff;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a[href$=".pdf"]{color:pink;
+}
+
+
+a:hover{
+  color:#21e8de;
+  text-decoration: underline;
+  transition: all ease 1s;
+}
+
+a:hover:after{
+  content: "☘️";
+}
+
+h1{
+  font-size: calc(3rem + 5vw);
+}
+
+#bloque{
+  margin: 5rem;
+  padding: 1rem;
+  background: rgba(255,255,255,.2);
+  border-radius: 1rem;
+  box-shadow:0 0 5px white;
+}
+
+.xmas {
+  font-family: "DynaPuff", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ajuste{
+  font-size:120%;
+}
+
+
+#bloque { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem);
+    padding: 2rem;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+/*posicionar al centro, dorma medio anticuada oeri igual sirve
+/* rgba, el alfa es entre 0 y 1, enre más cerca de uno mas solido
+/*
+canvas {
+  display: block;
+}
+*/
